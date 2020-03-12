@@ -1,0 +1,6 @@
+@include('user.template.head')
+@include('user.template.header')
+@yield('content')
+@yield('style')
+@yield('js')
+@include('user.template.footer')
